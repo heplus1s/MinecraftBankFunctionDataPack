@@ -66,7 +66,7 @@ Banking datapack for survival/server economy: **dual currency** (copper/diamond)
 # /scoreboard players set #TD bank_total <value>
 ```
 
-**内部变量与目标（摘录）**  
+**内部变量与目标**  
 - 玩家余额：`copper` / `diamond`  
 - 交易临时：`bank_tmp` / `bank_tmp2`  
 - 汇率：`#rate bank_rate`（由 `internal` 计算并夹紧至 `[RMIN, RMAX]`）  
